@@ -5,7 +5,7 @@
   <img src="pics/screenshots/CustomYellow.png" alt="Bash Clocker">
 </p>
 
-<p align="center">Screenshot of the Bash Clocker displaying the current time in ASCII art.</p>
+<p align="center">Bash Clocker displaying the current time in ASCII art.</p>
 
 
 The Bash Clocker is a command-line tool designed to display the time, ideal for events or exams, particularly when projected onto a large screen. Utilizing ASCII art, the clocker showcases numbers and characters in an aesthetically pleasing format. With a focus on bash scripting, the project offers customizable displays with more forms planned for future development.
