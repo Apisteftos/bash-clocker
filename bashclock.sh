@@ -24,12 +24,12 @@ if [ "$#" -eq 2 ]; then
         *)
             echo "Error!" 
             echo "Please provide exactly 2 arguments: <arg1> <profile_name>"
-            echo "Execute again: ./run.sh arg1 profile_name"
+            echo "Execute again: ./bashclock.sh arg1 profile_name"
             ;;
     esac
 else 
     echo "Incorrect number of arguments"
-    echo "Usage: ./run.sh arg1 profile_name"
+    echo "Usage: ./bashclock.sh arg1 profile_name"
 fi
 
 sleep 2
