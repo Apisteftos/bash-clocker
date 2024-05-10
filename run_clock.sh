@@ -74,7 +74,7 @@ while true; do
     tput civis
 
 
-    # Print the time and the ASCII art representation
+
     echo "Current Time: $hour:$minute:$second"
     echo "ASCII Art Representation:"
     if [ $arg2 == "Symbols/basic/colon.sh" ]; then 
@@ -95,6 +95,15 @@ while true; do
                             Symbols/basic3d/colon3d.sh \
                             <(echo "$second_first_digit") \
                             <(echo "$second_second_digit"))
+    elif [ $arg2 == "Symbols/smilingeyes/colon.sh" ]; then 
+        result=$(paste -d '' <(echo "$hour_first_digit") \
+                        <(echo "$hour_second_digit") \
+                        Symbols/smilingeyes/colon.sh \
+                        <(echo "$minute_first_digit") \
+                        <(echo "$minute_second_digit") \
+                        Symbols/smilingeyes/colon.sh \
+                        <(echo "$second_first_digit") \
+                        <(echo "$second_second_digit"))
     fi
     echo "$result"
 

@@ -21,6 +21,11 @@ if [ "$#" -eq 2 ]; then
             height=20
             gnome-terminal --geometry=${width}x${height} --title="${title}" --profile="${arg2}" -- bash -c "bash run_clock.sh ${arg1} Symbols/basic3d/colon3d.sh"
             ;;
+        smilingeyes)
+            width=140
+            height=20
+            gnome-terminal --geometry=${width}x${height} --title="${title}" --profile="${arg2}" -- bash -c "bash run_clock.sh ${arg1} Symbols/smilingeyes/colon.sh"
+            ;;
         *)
             echo "Error!" 
             echo "Please provide exactly 2 arguments: <arg1> <profile_name>"
