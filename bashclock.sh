@@ -14,12 +14,12 @@ if [ "$#" -eq 2 ]; then
         basic) 
             width=122
             height=19
-            gnome-terminal --geometry=${width}x${height} --title="${title}" --profile="${arg2}" -- bash -c "bash bash_clock.sh ${arg1} Symbols/basic/colon.sh"
+            gnome-terminal --geometry=${width}x${height} --title="${title}" --profile="${arg2}" -- bash -c "bash run_clock.sh ${arg1} Symbols/basic/colon.sh"
             ;;
         basic3d)
             width=140
             height=20
-            gnome-terminal --geometry=${width}x${height} --title="${title}" --profile="${arg2}" -- bash -c "bash bash_clock.sh ${arg1} Symbols/basic3d/colon3d.sh"
+            gnome-terminal --geometry=${width}x${height} --title="${title}" --profile="${arg2}" -- bash -c "bash run_clock.sh ${arg1} Symbols/basic3d/colon3d.sh"
             ;;
         *)
             echo "Error!" 
