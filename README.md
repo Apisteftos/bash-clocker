@@ -16,6 +16,7 @@ The Bash Clocker is a command-line tool designed to display the time, ideal for 
 - [Requirements](#requirements)
 - [Features](#features)
 - [Usage](#usage)
+- [Supporting](#supporting)
 - [License](#license)
 
 ## Introduction
@@ -57,6 +58,17 @@ Example:
 ```
 <br>
 <br>
+
+## Supporting
+
+If you find this project helpful or useful, please consider supporting it: 
+
+- **Star**: If you like this project, give it a star on GitHub.
+- **Contribute**: Contributions are welcome!
+- **Feedback**: Provide feedback or suggestions by opening an issue.
+- **Spread the Word**: Share this project with others who might find it useful.
+
+Thank you for the support and encouragement!
 
 ## License
 
