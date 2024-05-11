@@ -104,6 +104,16 @@ while true; do
                         Symbols/smilingeyes/colon.sh \
                         <(echo "$second_first_digit") \
                         <(echo "$second_second_digit"))
+    elif [ $arg2 == "Symbols/bluredvision/colon.sh" ]; then 
+        result=$(paste -d '' <(echo "$hour_first_digit") \
+                        <(echo "$hour_second_digit") \
+                        Symbols/bluredvision/colon.sh \
+                        <(echo "$minute_first_digit") \
+                        <(echo "$minute_second_digit") \
+                        Symbols/bluredvision/colon.sh \
+                        <(echo "$second_first_digit") \
+                        <(echo "$second_second_digit") \
+                        Symbols/bluredvision/dots.sh)
     fi
     echo "$result"
 
