@@ -33,6 +33,7 @@ This project requires the use of a custom terminal profile as a command-line arg
 - basic
 - basic3d
 - smilingeyes
+- bluredvision
 
 ## Usage 
 
