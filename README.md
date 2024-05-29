@@ -3,6 +3,7 @@
 
 <p align="center">
   <img src="pics/screenshots/CustomYellow.png" alt="Bash Clocker">
+  <img src="pics/screenshots/BluredVisionBlack.png" alt="Bash Clocker">
 </p>
 
 <p align="center">Bash Clocker displaying the current time in ASCII art.</p>
